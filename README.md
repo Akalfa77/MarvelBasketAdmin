@@ -5,7 +5,7 @@ This module helps administrators handle user accounts, verify sellers, moderate 
 
 ---
 
-## Overview
+### Overview
 
 The Admin Panel serves as the control center for Marvel Basket.  
 It provides an interface to:
@@ -17,7 +17,7 @@ It provides an interface to:
 
 ---
 
-## Tech Stack
+### Tech Stack
 
 - **Spring Boot** — RESTful API development
 - **Java (JDK 8+)** — Core programming language
@@ -30,7 +30,7 @@ It provides an interface to:
 
 ---
 
-## Features
+### Features
 
 - Admin dashboard for managing users and sellers
 - CRUD operations for user and product management
@@ -42,16 +42,16 @@ It provides an interface to:
 
 ---
 
-### Dashboard
+#### Dashboard
 ![MarvelBasket Dashboard](MarvelBasket-Dashboard.png)
 
-### Notifications Tab
+#### Notifications Tab
 ![MarvelBasket Notification Tab](MarvelBasket-Notifications-Tab.png)
 
 ---
 ---
 
-## Other Modules of the Project
+### Other Modules of the Project
 
 > **(1) Marvel Basket** — Android Application  
 > • Reminds users about special events of their close ones  

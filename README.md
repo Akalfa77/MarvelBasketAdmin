@@ -1,24 +1,56 @@
 # MarvelBasketAdmin
 
-This repository contains the source code of one of the module (Admin Panel) of the project Marvel Basket.
+MarvelBasketAdmin is the **Admin Panel module** of the **Marvel Basket** project — a web-based system designed to manage users, sellers, and marketplace operations efficiently.  
+This module helps administrators to handle user accounts, verify sellers, moderate products, and track orders from a single dashboard.
 
-(*) Admin panel : (Web Application) <br />
-    For managing all the users and seller accounts.<br />
-    (Tech-Stack : REST API : Spring Boot , FrontEnd : HTML, CSS, JavaScript, Bootstrap, Database : MySQL)<br />
- 
-<b> Dashboard : </b>
-![MarvelBastket Dashboard Image](https://github.com/cM2908/MarvelBasketAdmin/blob/master/MarvelBasket-Dashboard.png?raw=true)
+---
 
-<b> Notifications Tab : </b>
-![MarvelBastket Notification Tab](https://github.com/cM2908/MarvelBasketAdmin/blob/master/MarvelBasket-Notifications-Tab.png?raw=true)
-(This notification tab is implemented using TreeSet for reverse sorting)<br />
+## Overview
 
-Other modules of the project are :<br />
+The Admin Panel serves as the control center for Marvel Basket.  
+It provides an interface to:
 
-(1) Marvel Basket : (Android Application)<br />
-    Reminds events of user's close ones and also let user send gifts. <br />
-    (Tech-Stack : Java,Firebase)<br />
+- Manage user and seller accounts
+- View and monitor activities, orders, and products
+- Handle notifications and system alerts
+- Maintain overall platform stability
 
-(2) Marvel Basket Seller : (Android Application)<br />
-    For gift vendors so that they can add thier products for sell the plateform.<br />
-    (Tech-Stack : Java,Firebase)<br />
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Backend (REST API) | Spring Boot |
+| Frontend | JSP, HTML, CSS, JavaScript, Bootstrap |
+| Database | MySQL |
+| Build Tool | Maven |
+| Server | Apache Tomcat (embedded in Spring Boot) |
+
+---
+
+## Features
+
+- Admin dashboard for managing users and sellers
+- CRUD operations for user and product management
+- Real-time notifications and system updates
+- SendGrid integration for email alerts *(API keys excluded for security)*
+- Authentication and session management
+- Responsive UI using Bootstrap
+
+---
+
+## Screenshots
+
+### Dashboard
+![MarvelBasket Dashboard]
+
+### Notifications Tab
+![MarvelBasket Notification Tab]
+
+> The Notifications tab uses a TreeSet for reverse sorting, ensuring the latest notifications appear first.
+
+---
+
+## Project Structure
+
